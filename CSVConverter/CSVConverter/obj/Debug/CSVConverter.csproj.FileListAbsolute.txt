@@ -26,3 +26,17 @@ E:\TestDemos\CSVConverter\CSVConverter\obj\Debug\CSVConverter.csproj.CoreCompile
 E:\TestDemos\CSVConverter\CSVConverter\obj\Debug\CSVConverter.csproj.CopyComplete
 E:\TestDemos\CSVConverter\CSVConverter\obj\Debug\WinformTest.exe
 E:\TestDemos\CSVConverter\CSVConverter\obj\Debug\WinformTest.pdb
+D:\GitRep\Other\TaTa_CsvConverter\CSVConverter\CSVConverter\bin\Debug\MetroFramework.Design.dll
+D:\GitRep\Other\TaTa_CsvConverter\CSVConverter\CSVConverter\bin\Debug\MetroFramework.dll
+D:\GitRep\Other\TaTa_CsvConverter\CSVConverter\CSVConverter\bin\Debug\MetroFramework.Fonts.dll
+D:\GitRep\Other\TaTa_CsvConverter\CSVConverter\CSVConverter\obj\Debug\CSVConverter.csprojAssemblyReference.cache
+D:\GitRep\Other\TaTa_CsvConverter\CSVConverter\CSVConverter\obj\Debug\WinformTest.CSVToObj.resources
+D:\GitRep\Other\TaTa_CsvConverter\CSVConverter\CSVConverter\obj\Debug\WinformTest.Properties.Resources.resources
+D:\GitRep\Other\TaTa_CsvConverter\CSVConverter\CSVConverter\obj\Debug\CSVConverter.csproj.GenerateResource.cache
+D:\GitRep\Other\TaTa_CsvConverter\CSVConverter\CSVConverter\obj\Debug\CSVConverter.csproj.CoreCompileInputs.cache
+D:\GitRep\Other\TaTa_CsvConverter\CSVConverter\CSVConverter\obj\Debug\CSVConverter.csproj.CopyComplete
+D:\GitRep\Other\TaTa_CsvConverter\CSVConverter\CSVConverter\bin\Debug\CSVConverter.exe.config
+D:\GitRep\Other\TaTa_CsvConverter\CSVConverter\CSVConverter\bin\Debug\CSVConverter.exe
+D:\GitRep\Other\TaTa_CsvConverter\CSVConverter\CSVConverter\bin\Debug\CSVConverter.pdb
+D:\GitRep\Other\TaTa_CsvConverter\CSVConverter\CSVConverter\obj\Debug\CSVConverter.exe
+D:\GitRep\Other\TaTa_CsvConverter\CSVConverter\CSVConverter\obj\Debug\CSVConverter.pdb

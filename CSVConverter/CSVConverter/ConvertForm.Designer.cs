@@ -64,6 +64,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.f_UV0ComboBox = new System.Windows.Forms.ComboBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage2OBJ.SuspendLayout();
@@ -74,7 +75,7 @@
             // outputListView
             // 
             this.outputListView.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.outputListView.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.outputListView.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.outputListView.FormattingEnabled = true;
             this.outputListView.HorizontalScrollbar = true;
             this.outputListView.ItemHeight = 17;
@@ -87,7 +88,7 @@
             // PosLabel
             // 
             this.PosLabel.AutoSize = true;
-            this.PosLabel.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.PosLabel.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.PosLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PosLabel.Location = new System.Drawing.Point(10, 42);
             this.PosLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -99,7 +100,7 @@
             // UVLabel
             // 
             this.UVLabel.AutoSize = true;
-            this.UVLabel.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.UVLabel.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.UVLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.UVLabel.Location = new System.Drawing.Point(13, 71);
             this.UVLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -112,7 +113,7 @@
             // 
             this.PosComboBox.CausesValidation = false;
             this.PosComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.PosComboBox.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.PosComboBox.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.PosComboBox.FormattingEnabled = true;
             this.PosComboBox.Location = new System.Drawing.Point(132, 39);
             this.PosComboBox.Margin = new System.Windows.Forms.Padding(4);
@@ -123,7 +124,7 @@
             // UVComboBox
             // 
             this.UVComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.UVComboBox.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.UVComboBox.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.UVComboBox.FormattingEnabled = true;
             this.UVComboBox.Location = new System.Drawing.Point(132, 68);
             this.UVComboBox.Margin = new System.Windows.Forms.Padding(4);
@@ -134,7 +135,7 @@
             // NormalLabel
             // 
             this.NormalLabel.AutoSize = true;
-            this.NormalLabel.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.NormalLabel.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.NormalLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.NormalLabel.Location = new System.Drawing.Point(13, 101);
             this.NormalLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -146,7 +147,7 @@
             // NormalComboBox
             // 
             this.NormalComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.NormalComboBox.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.NormalComboBox.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.NormalComboBox.FormattingEnabled = true;
             this.NormalComboBox.Location = new System.Drawing.Point(132, 98);
             this.NormalComboBox.Margin = new System.Windows.Forms.Padding(4);
@@ -157,7 +158,7 @@
             // LogLabel
             // 
             this.LogLabel.AutoSize = true;
-            this.LogLabel.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.LogLabel.Font = new System.Drawing.Font("Microsoft YaHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.LogLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.LogLabel.Location = new System.Drawing.Point(12, 128);
             this.LogLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -168,7 +169,7 @@
             // 
             // csvPathLabel
             // 
-            this.csvPathLabel.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.csvPathLabel.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.csvPathLabel.Location = new System.Drawing.Point(13, 6);
             this.csvPathLabel.Margin = new System.Windows.Forms.Padding(4);
             this.csvPathLabel.Name = "csvPathLabel";
@@ -178,7 +179,7 @@
             // 
             // csvPathBtn
             // 
-            this.csvPathBtn.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.csvPathBtn.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.csvPathBtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.csvPathBtn.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.csvPathBtn.Location = new System.Drawing.Point(373, 4);
@@ -192,7 +193,7 @@
             // 
             // ExportBtn
             // 
-            this.ExportBtn.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.ExportBtn.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.ExportBtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ExportBtn.Location = new System.Drawing.Point(373, 96);
             this.ExportBtn.Margin = new System.Windows.Forms.Padding(4);
@@ -225,7 +226,7 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.Location = new System.Drawing.Point(391, 505);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
@@ -299,7 +300,7 @@
             // f_UV3ComboBox
             // 
             this.f_UV3ComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.f_UV3ComboBox.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.f_UV3ComboBox.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.f_UV3ComboBox.FormattingEnabled = true;
             this.f_UV3ComboBox.Location = new System.Drawing.Point(132, 220);
             this.f_UV3ComboBox.Margin = new System.Windows.Forms.Padding(4);
@@ -310,7 +311,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label8.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label8.Location = new System.Drawing.Point(13, 223);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -322,7 +323,7 @@
             // f_UV2ComboBox
             // 
             this.f_UV2ComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.f_UV2ComboBox.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.f_UV2ComboBox.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.f_UV2ComboBox.FormattingEnabled = true;
             this.f_UV2ComboBox.Location = new System.Drawing.Point(132, 188);
             this.f_UV2ComboBox.Margin = new System.Windows.Forms.Padding(4);
@@ -333,7 +334,7 @@
             // f_UV1ComboBox
             // 
             this.f_UV1ComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.f_UV1ComboBox.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.f_UV1ComboBox.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.f_UV1ComboBox.FormattingEnabled = true;
             this.f_UV1ComboBox.Location = new System.Drawing.Point(132, 158);
             this.f_UV1ComboBox.Margin = new System.Windows.Forms.Padding(4);
@@ -344,7 +345,7 @@
             // f_VColorComboBox
             // 
             this.f_VColorComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.f_VColorComboBox.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.f_VColorComboBox.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.f_VColorComboBox.FormattingEnabled = true;
             this.f_VColorComboBox.Location = new System.Drawing.Point(132, 98);
             this.f_VColorComboBox.Margin = new System.Windows.Forms.Padding(4);
@@ -355,7 +356,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label7.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label7.Location = new System.Drawing.Point(13, 191);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -367,7 +368,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label6.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label6.Location = new System.Drawing.Point(13, 161);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -379,7 +380,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label5.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label5.Location = new System.Drawing.Point(13, 101);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -390,7 +391,7 @@
             // 
             // f_csvPathLabel
             // 
-            this.f_csvPathLabel.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.f_csvPathLabel.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.f_csvPathLabel.Location = new System.Drawing.Point(13, 6);
             this.f_csvPathLabel.Margin = new System.Windows.Forms.Padding(4);
             this.f_csvPathLabel.Name = "f_csvPathLabel";
@@ -401,7 +402,7 @@
             // listBox1
             // 
             this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.listBox1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.listBox1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.listBox1.FormattingEnabled = true;
             this.listBox1.HorizontalScrollbar = true;
             this.listBox1.ItemHeight = 17;
@@ -414,7 +415,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Location = new System.Drawing.Point(12, 252);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -425,7 +426,7 @@
             // 
             // f_ExportBtn
             // 
-            this.f_ExportBtn.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.f_ExportBtn.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.f_ExportBtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.f_ExportBtn.Location = new System.Drawing.Point(373, 220);
             this.f_ExportBtn.Margin = new System.Windows.Forms.Padding(4);
@@ -438,7 +439,7 @@
             // 
             // f_csvPathBtn
             // 
-            this.f_csvPathBtn.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.f_csvPathBtn.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.f_csvPathBtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.f_csvPathBtn.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.f_csvPathBtn.Location = new System.Drawing.Point(373, 4);
@@ -453,7 +454,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.Location = new System.Drawing.Point(10, 42);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -465,7 +466,7 @@
             // f_NormalComboBox
             // 
             this.f_NormalComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.f_NormalComboBox.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.f_NormalComboBox.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.f_NormalComboBox.FormattingEnabled = true;
             this.f_NormalComboBox.Location = new System.Drawing.Point(132, 68);
             this.f_NormalComboBox.Margin = new System.Windows.Forms.Padding(4);
@@ -477,7 +478,7 @@
             // 
             this.f_PosComboBox.CausesValidation = false;
             this.f_PosComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.f_PosComboBox.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.f_PosComboBox.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.f_PosComboBox.FormattingEnabled = true;
             this.f_PosComboBox.Location = new System.Drawing.Point(132, 39);
             this.f_PosComboBox.Margin = new System.Windows.Forms.Padding(4);
@@ -488,7 +489,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label3.Location = new System.Drawing.Point(13, 71);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -500,7 +501,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label4.Location = new System.Drawing.Point(13, 131);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -512,7 +513,7 @@
             // f_UV0ComboBox
             // 
             this.f_UV0ComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.f_UV0ComboBox.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.f_UV0ComboBox.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.f_UV0ComboBox.FormattingEnabled = true;
             this.f_UV0ComboBox.Location = new System.Drawing.Point(132, 128);
             this.f_UV0ComboBox.Margin = new System.Windows.Forms.Padding(4);
@@ -520,15 +521,27 @@
             this.f_UV0ComboBox.Size = new System.Drawing.Size(229, 25);
             this.f_UV0ComboBox.TabIndex = 21;
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(41, 516);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(138, 25);
+            this.checkBox1.TabIndex = 30;
+            this.checkBox1.Text = "Is UE4 Model?";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
             // CSVToObj
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(499, 552);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.button1);
-            this.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.ForeColor = System.Drawing.Color.CornflowerBlue;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Margin = new System.Windows.Forms.Padding(5);
@@ -543,6 +556,7 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -583,6 +597,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 

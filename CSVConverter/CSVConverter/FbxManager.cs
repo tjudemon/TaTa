@@ -252,6 +252,8 @@ Definitions:  {
 		bool hasBinormal = false;
 		bool hasTangent = false;
 
+        bool isUE4Model = false;
+
 		string COL_POS_NAME = "POSITION0.x";
 		string COL_NM_NAME = "NORMAL0.x";
 		string COL_UV0_NAME = "TEXCOORD0.x";
@@ -291,6 +293,11 @@ Definitions:  {
 			hasUV3 = (COL_UV3_NAME == "" || COL_UV3_NAME == " NULL") ? false : true;
 			hasVertexColor = (COL_VETCOLOR_NAME == "" || COL_VETCOLOR_NAME == " NULL") ? false : true;
 		}
+
+        public void setIsUE4Model(bool isUe4)
+        {
+            isUE4Model = isUe4;
+        }
 
 		public void BuildFBXData(List<string[]> origDatas,string outputPath)
 		{
@@ -370,8 +377,15 @@ Definitions:  {
 					}
 				}
 			}
-			int[] orderArray = { 0, 2, 1 };
-			for(int i =1; i < _datas.Count-2; i += 3)
+            int[] orderArray = { 0, 2, 1 };
+            if (isUE4Model)
+            {
+                orderArray[0] = 0;
+                orderArray[1] = 1;
+                orderArray[2] = 2;
+            }
+            //int[] orderArray = { 0, 1, 2 };
+            for (int i =1; i < _datas.Count-2; i += 3)
 			{
 				// build index buffer data
 				for(int j = 0;j < orderArray.Length; j++)
@@ -833,7 +847,7 @@ Definitions:  {
 				this.normalY = normalY;
 				this.normalZ = normalZ;
 				this.uvX = uvX;
-				this.uvY = uvY;
+				this.uvY = 1 - uvY;
 
 				this.uv1X = uv1X;
 				this.uv1Y = uv1Y; 

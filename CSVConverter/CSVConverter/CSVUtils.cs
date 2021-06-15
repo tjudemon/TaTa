@@ -33,6 +33,8 @@ namespace WinformTest
         public bool hasUV3 = false;
         public bool hasUV4 = false;
 
+        public bool isUE4 = false;
+
 
         public void LoadCsvFile(string fileName)
         {
@@ -400,6 +402,7 @@ namespace WinformTest
             fbxManer.SetFormOBJ(_formObj);
             fbxManer.SetColName(COL_POS_NAME, COL_NM_NAME, COL_UV0_NAME, 
                 COL_UV1_NAME, COL_UV2_NAME, COL_UV3_NAME,COL_VETCOLOR_NAME);
+            fbxManer.setIsUE4Model(isUE4);
             fbxManer.BuildFBXData(_datas, outputPath);
         }
 

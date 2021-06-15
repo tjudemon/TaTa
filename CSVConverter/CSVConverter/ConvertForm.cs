@@ -124,6 +124,7 @@ namespace WinformTest
                 outputListView.Items.Clear();
                 listBox1.Text = "";
                 listBox1.Items.Clear();
+                CSVManager.isUE4 = checkBox1.Checked;
                 var outputFormat = GetOutPutFormat();
                 if (outputFormat == OUTPUT_FORMAT.FBX)
                 {
@@ -251,6 +252,11 @@ namespace WinformTest
         private OUTPUT_FORMAT GetOutPutFormat()
         {
             return (OUTPUT_FORMAT)tabControl1.SelectedIndex;
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
